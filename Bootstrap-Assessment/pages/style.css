@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+}
+/* contact Info */
+#contactInfo{
+    background-color: black;
+    color: white;
+    padding: 0.3%;
+}
+
+#contactInfo ul{
+    list-style: none;
+    text-align: center;
+}
+
+#contactInfo ul li{
+    display: inline;
+}
+
+#contactInfo ul li p{
+    display: inline;
+    margin-left: 50px;
+}
+/* navbar */
+nav{
+    padding: 10px;
+    background-color: rgb(70, 70, 168);
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+h1{
+    background-color: rgb(51, 51, 156);
+    padding: 10px;
+    color: white;
+    text-align: center;
+    max-width: 40%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+
+}
+#infoSectionPara{
+    text-align: justify;
+    font-weight: bold;
+    color:rgb(48,48,114);
+}
+
+#contactUs{
+    background-color: white;
+    color: rgb(70, 70, 168);
+    column-rule: 50px;
+    column-gap: 20%;
+}
+#services h2{
+    text-align: center;
+    background-color:rgb(48,48,114);
+    color:white;
+    margin: 0 auto;
+    max-width: 30%;
+    padding:10px;
+    font-size: 24px;
+
+}
+#services form{
+    max-width: 40%;
+    margin:0 auto;
+}
+#services input{
+    font-size: 18px;
+    border:2px solid black;
+    border-radius: 10px;
+}
+#services div.col-4{
+    text-align: center;
+
+}
+#services p{
+    max-width: 80%;
+    margin: 10px auto;
+    font-weight: bold;
+    font-size: 14px;
+    color:rgb(48,48,114);
+
+}
+/* #services input{
+    font-size: 18px;
+    text-align: center;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+#services div.col-4{
+    text-align: center;
+}
+#services p{
+    max-width: 80%;
+    margin: 10px auto;
+    font-weight: bold;
+    color: rgb(70, 70, 168);
+} */
+#contact{
+    background-color: rgb(164, 191, 214);
+    padding: 50px;
+}
+#contact button{
+    background-color: rgb(48,48,114);
+    color:white;
+    padding:10px;
+    font-size: 18px;
+    border:0;
+    width: 250px;
+    border-radius: 20px;
+}
+#contact h3{
+    background-color: rgb(70, 70, 168);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+footer{
+    background-color: rgb(48,48,114);
+    color:white;
+    text-align: center;
+}
+footer img{
+    margin: 20px;
+    height: 30px;
+    width:25px;
+    cursor: pointer;
+}
+footer p:first-child{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    
+}
+footer p{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+#visionMission{
+    background-color: rgb(164, 191, 214);
+    padding: 50px;
+}
+#visionMission h3{
+    background-color: rgb(70, 70, 168);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+#icons h2{
+    background-color: rgb(70, 70, 168);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+#icons .container{
+    background-color: rgb(51, 51, 156);
+    padding: 10px 10px;
+    text-align: center;
+    max-width: 60%;
+    margin: 0 auto;
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+}
+#icons img{
+    width: 70%;
+}
+#icons p{
+    margin-top: 10px;
+    text-align: center;
+    padding: 20%;
+    font-weight: bold;
+    color: rgb(51, 51, 156);
+}
+
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#contactUs label{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
